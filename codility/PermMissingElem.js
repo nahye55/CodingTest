@@ -27,9 +27,11 @@
  */
 
 function solution(A) {
-
+  const max = Math.max(...A);
+  const min = Math.min(...A);
   let total = 0;
-  for(let i = 0; i <= A.length; i++) {
+
+  for(let i = min; i <= max; i++) {
     total += i;
   }
 
@@ -38,7 +40,6 @@ function solution(A) {
   }
 
   return total;
-
 }
 
 function solution2(A) {
