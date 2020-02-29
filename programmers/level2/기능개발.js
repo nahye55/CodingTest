@@ -71,5 +71,7 @@ function solution2(progresses, speeds) {
  * 개선 사항
  * solution2() : 다른사람의 풀이..
  * 나의 풀이와 같은 맥락이지만, 코드를 간결하게 정리할 수 있었다.
+ * 나의 풀이 > pushDay=maxDay.. 나는 배포날의 초기값을 0으로 선언 후 , 0인 경우를 배제하는 조건문을 만들었지만,
+ * 다른 사람은 maxDay를 다르게 선언했다.
  *
  */
