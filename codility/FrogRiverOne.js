@@ -48,7 +48,7 @@
 
 function solution(X, A) {
   let answer = -1;
-  let arr = Array(X).fill();
+  let arr = Array(X).fill(0);
   for(let i = 0 ; i < A.length; i++) {
     let cnt = 0;
     arr[A[i]-1] = A[i];
